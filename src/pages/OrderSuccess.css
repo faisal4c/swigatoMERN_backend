@@ -1,3 +1,7 @@
 .order-success a:hover{
     color: white;
 }
+
+.order-success-page{
+    min-height: 80vh;
+}

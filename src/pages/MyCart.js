@@ -13,7 +13,7 @@ export default function MyCart() {
   useEffect(() => {
     let currTotal = 0;
     for (let Objelem of cartArray) {
-      currTotal += Objelem.item.price * (Objelem.qty);
+      currTotal += (Objelem.item.price) * (Objelem.qty);
     }
 
     setTotalPrice(currTotal);

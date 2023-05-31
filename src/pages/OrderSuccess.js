@@ -29,23 +29,22 @@ export default function OrderSuccess() {
     }, []);
 
     return (
-        <>
+        <div className='order-success-page'>
             <Navbar />
             {
                 success &&
                 (
                     <div className='order-success'>
                         <h3
-                        style={{textAlign:'center'}}
+                            style={{ textAlign: 'center' }}
                         >Order Received Successfully</h3>
                         <p
-                        style={{textAlign:'center'}}
+                            style={{ textAlign: 'center' }}
                         >It will reach you shortly</p>
                         <Link className='order-now' to='/'>Go Back</Link>
                     </div>
                 )
             }
-        </>
-
+        </div>
     )
 }
