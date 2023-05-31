@@ -12,7 +12,7 @@ export default function MyOrders() {
     const controller = new AbortController();//using this controller to abort fetch if component unmounts
     const fetchOrdersData = async () => {
       try {
-        const res = await fetch(`http://127.0.0.1:5000/api/getOrders/${sessionStorage.getItem('email')}`, {
+        const res = await fetch(`https://swigato-backend.onrender.com/api/getOrders/${sessionStorage.getItem('email')}`, {
           signal: controller.signal//registering this controller with fetch request
         })
 

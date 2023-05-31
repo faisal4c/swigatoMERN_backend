@@ -17,7 +17,7 @@ export default function FoodItems() {
         const controller = new AbortController();//using this controller to abort fetch if component unmounts
         const fetchData = async () => {
             try {
-                const res = await fetch('http://127.0.0.1:5000/api/getFoodItems', {
+                const res = await fetch('https://swigato-backend.onrender.com/api/getFoodItems', {
                     signal: controller.signal//registering this controller with fetch request
                 })
                 const data = await res.json();

@@ -10,7 +10,7 @@ export default function OrderSuccess() {
     const navigate = useNavigate();
     useEffect(() => {
         const saveOrderOnDB = async () => {
-            const res = await fetch('http://127.0.0.1:5000/api/addOrder', {
+            const res = await fetch('https://swigato-backend.onrender.com/api/addOrder', {
                 method: "POST",
                 headers: {
                     'Content-Type': "application/json"
