@@ -1,0 +1,139 @@
+.my-cart-page{
+    min-height: 90vh;
+}
+
+.mycart{
+    padding: 1rem 1rem 1rem 0rem;
+    width: 80vw;
+    margin: auto;
+}
+
+.mycart .mycart-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
+.mycart .mycart-heading button{
+    margin: 0 1rem;
+}
+.mycart h3{
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.cart-item{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    padding-bottom: 1rem;
+}
+.cart-item .info{
+    width:30%;
+}
+
+.cart-item .info img{
+    width: 100%;
+    height:100px ;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+.cart-item p{
+    color:green;
+}
+
+.cart-item p span{
+    color:black;
+}
+
+.cart-item hr{
+    border: 0.2px solid black;
+    position: absolute;
+    top: 85%;
+    width:100%;
+}
+
+.total-price h5{
+    margin-top: 2rem;
+    text-align: center;
+}
+.total-price h5 span{
+    color: green;
+}
+#noItemInCart{
+    margin-left: 1rem;
+    max-width: 900px;
+    width: 80vw;
+    margin:auto;
+}
+#noItemInCart a{
+    text-decoration: none !important;
+    display:block;
+    text-align: center;
+    background-color: #DC4647;
+    color:white;
+    border-radius: 20px;
+    border:none;
+    font-weight: 500;
+    padding: 0.3rem;
+    border:none;
+    width:8rem;
+    box-sizing: border-box;
+}
+#noItemInCart a:hover{
+    text-decoration: none !important;
+    transform: scale(1.02);
+}
+
+#please-login h3{
+    text-align: center;
+}
+
+#please-login a:hover{
+    transform: scale(1.02);
+    text-decoration: none !important;
+    color: white;
+}
+
+.place-order a:hover{
+    color: white;
+}
+.place-order a:hover{
+    color: white;
+}
+
+.total-price textarea{
+    display: block;
+    height: 20vh;
+    width: 60vw;
+    max-width: 600px;
+    margin:auto;
+    font-size: 1.1rem;
+}
+
+.add-address{
+    width: auto;
+    max-width: 200px;
+}
+
+@media all and (max-width:335px) {
+    .mycart h3{
+        font-size: 1rem;
+    }
+    .mycart .mycart-heading button,#noItemInCart a{
+        font-size: 0.5rem;
+        padding:5px;
+        width: 5rem;
+        margin-right: 0;
+    }
+
+    .cart-item .info h5{
+        font-size: 1rem;
+    }
+    .cart-item p{
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,115 @@
+.whatweoffer {
+    animation: 2s fade-right ease-out;
+}
+
+.whatweoffer h3 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.whatweoffer p {
+    text-align: center;
+}
+
+.whatweoffer .boxes {
+    overflow: hidden;
+    display: flex;
+    height: 20vmax;
+    justify-content: space-between;
+    animation: 2s fade-right ease-out;
+}
+
+.whatweoffer .boxes .box {
+    background-color: white;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+.whatweoffer .boxes .box img {
+    overflow: hidden;
+    padding-top: 0.2rem;
+    margin-bottom: 8%;
+    height: 60%;
+    width: auto;
+    max-width: 100%;
+    transition: all 0.4s ease-out;
+    animation: 2s fade-right ease-out;
+
+}
+
+.whatweoffer .boxes .box img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.whatweoffer .boxes .box h4 {
+    font-weight: 600;
+}
+
+.order-now {
+    text-decoration: none !important;
+    display: block;
+    text-align: center;
+    background-color: #DC4647;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-weight: 500;
+    padding: 0.3rem;
+    border: none;
+    width: 8rem;
+    margin: 1rem auto;
+    box-sizing: border-box;
+}
+
+.order-now:hover {
+    transform: scale(1.02);
+    text-decoration: none !important;
+}
+
+@keyframes fade-right {
+    0% {
+        opacity: 0;
+        transform: translateX(200px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.whatweoffer .box a {
+    text-decoration: none !important;
+    color: rgba(0, 0, 0, 0.797);
+}
+
+.whatweoffer .box a:hover {
+    text-decoration: none !important;
+    color: rgba(0, 0, 0, 0.797);
+}
+
+
+
+@media all and (max-width:500px) {
+    @media (max-width: 500px) {
+        .whatweoffer .boxes {
+            display: block;
+            height: fit-content !important;
+            height: 100vh;
+        }
+
+        .whatweoffer .box {
+            text-align: center;
+            margin: auto;
+        }
+
+        .whatweoffer {
+            height: fit-content !important;
+
+        }
+    }
+}

@@ -1,0 +1,87 @@
+[
+    {
+      "name": "Swedish Meatballs",
+      "price": 450,
+      "isVeg": false,
+      "ingredients": "Ground beef, Bread crumbs, Onion, Garlic, Egg, Milk, Salt, Black pepper, Nutmeg, Butter, All-purpose flour, Beef broth, Heavy cream, Worcestershire sauce",
+      "image": "https://images-gmi-pmc.edge-generalmills.com/a7d7f227-8d99-4ebd-b224-f5338c0f0749.jpg"
+    },
+    {
+      "name": "Honey Pancakes",
+      "price": 500,
+      "isVeg": true,
+      "ingredients": "All-purpose flour, Baking powder, Salt, Milk, Honey, Egg, Butter",
+      "image": "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "name": "Cheesy Nachos",
+      "price": 14,
+      "isVeg": true,
+      "ingredients": "Tortilla chips, Cheddar cheese, Monterey Jack cheese, Jalapeno peppers, Black olives, Tomatoes, Green onions, Sour cream, Guacamole",
+      "image": "https://iambaker.net/wp-content/uploads/2019/07/chili-cheese-nacho-final.jpg"
+    },
+    {
+      "name": "Vada Pav",
+      "price": 60,
+      "isVeg": true,
+      "ingredients": "Potatoes, Gram flour, Green chilies, Ginger, Garlic, Mustard seeds, Cumin seeds, Turmeric powder, Red chili powder, Coriander leaves, Lemon juice, Salt, Oil, Pav buns",
+      "image": "https://images.mid-day.com/images/images/2022/apr/Vada-pav_d.jpg"
+    },
+    {
+      "name": "Buffalo Chicken Meatballs",
+      "price": 600,
+      "isVeg": false,
+      "ingredients": "Ground chicken, Bread crumbs, Onion, Garlic, Egg, Milk, Hot sauce, Worcestershire sauce, Salt, Black pepper, Blue cheese dressing",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/buffalo-chicken-meatballs1-1671199673.jpg?crop=0.448xw:1.00xh;0.257xw,0&resize=980:*"
+    },
+    {
+      "name": "Veg Macaroni",
+      "price": 200,
+      "isVeg": true,
+      "ingredients": "Macaroni pasta, Onion, Garlic, Mixed vegetables, Tomato sauce, Red chili flakes, Italian seasoning, Salt, Black pepper, Olive oil",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/loaded-fries-1-1674252336.jpg?crop=0.448xw:1.00xh;0.454xw,0&resize=980:*"
+    },
+    {
+      "name": "Garlic Bread",
+      "price": 220,
+      "isVeg": true,
+      "ingredients": "French bread, Butter, Garlic, Parsley, Salt",
+      "image": "https://www.indianveggiedelight.com/wp-content/uploads/2017/03/dominos_stuffed_garlic_bread_final-1536x2048.webp"
+    },
+    {
+      "name": "Blooming Quesadilla Ring",
+      "price": 400,
+      "isVeg": true,
+      "ingredients": "Flour tortillas, Cheddar cheese, Mozzarella cheese, Bell peppers, Red onion, Jalapeno peppers, Olive oil, Sour cream, Salsa",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/blooming-quesadilla-ring-1674080631.jpeg?crop=0.6666666666666667xw:1xh;center,top&resize=980:*"
+    },
+    {
+      "name": "Hamburger",
+      "price": 300,
+      "isVeg": false,
+      "ingredients": "Ground beef, Hamburger buns, Lettuce, Tomato, Onion, Pickles, Ketchup, Mustard, Mayonnaise, Salt, Black pepper, Cheese (optional)",
+      "image": "https://assets.epicurious.com/photos/57c5c6d9cf9e9ad43de2d96e/1:1/w_1920,c_limit/the-ultimate-hamburger.jpg"
+    },
+    {
+      "name": "Sandwich",
+      "price": 80,
+      "isVeg": true,
+      "ingredients": "Bread slices, Lettuce, Tomato, Cucumber, Onion, Cheese, Mayonnaise, Mustard, Salt, Black pepper",
+      "image": "https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/tiktok_breakfast_42301_16x9.jpg"
+    },
+    {
+      "name": "Chicken Wings",
+      "price": 250,
+      "isVeg": false,
+      "ingredients": "Chicken wings, Salt, Black pepper, Garlic powder, Paprika, Cayenne pepper, Butter, Hot sauce, Honey, Soy sauce, Ginger, Lime juice",
+      "image": "https://www.budgetbytes.com/wp-content/uploads/2023/01/Air-Fryer-Chicken-Wings-V1.jpg"
+    },
+    {
+      "name": "Oreo Shake",
+      "price": 150,
+      "isVeg": true,
+      "ingredients": "Vanilla ice cream, Milk, Oreo cookies, Whipped cream",
+      "image": "https://www.whiskaffair.com/wp-content/uploads/2020/07/Oreo-Milkshake-2-1.jpg"
+    }
+  ]
+  

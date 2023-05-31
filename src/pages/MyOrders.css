@@ -1,0 +1,21 @@
+.myorders h2{
+    text-align: center;
+}
+
+.myorders .add-btn{
+    display: none;
+}
+
+.no-orders{
+    text-align: center;
+}
+.no-orders a:hover{
+    color:white
+}
+.my-orders-wrapper{
+    min-height: 100vh;
+}
+
+.myorders-error,.no-orders,.myorders{
+    min-height: 80vh;
+}

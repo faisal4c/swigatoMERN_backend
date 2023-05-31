@@ -1,0 +1,49 @@
+.signup {
+    padding-top: 2rem;
+    width: 100vw;
+    height: 100vh;
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+.signup form {
+    width: 80vw;
+    max-width: 400px;
+    height: 80vh;
+    max-height: 600px;
+    background-color: white;
+    border-radius: 20px;
+}
+.signup form h3{
+    margin:1rem 0 1rem 10%;
+}
+.signup form p{
+    text-align: center;
+}
+.signup form h3{
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+.signup form input {
+    padding: 0.3rem;
+    margin: 0 auto 1.8rem auto;
+    height: 50px;
+    width: 80%;
+    display: block;
+    border: 1px solid rgba(128, 128, 128, 0.34);
+    border-radius: 8px;
+}
+
+
+@media all and (max-width:473px){
+    .signup form input {
+        height: 30px;
+    }
+
+    .signup form {
+        height: 60vh
+    }
+}
