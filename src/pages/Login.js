@@ -32,8 +32,6 @@ export default function Login() {
         console.log(sessionStorage.getItem('authToken'));
         navigate('/');
       }
-      console.log(data);
-
     }
     catch (err) {
       console.log(err);

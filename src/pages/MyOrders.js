@@ -34,10 +34,6 @@ export default function MyOrders() {
     }
   }, [])
 
-  console.log(ordersArray.map((elem) => {
-    return elem
-  }))
-
   return (
     <>
       <Navbar />
