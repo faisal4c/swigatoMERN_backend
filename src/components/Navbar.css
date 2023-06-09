@@ -4,6 +4,10 @@ nav{
 }
 
 
+.navbar.navbar-expand-lg.navbar-light{
+   position: relative;
+   z-index: 1000;
+}
 
 .navbar.navbar-expand-lg.navbar-light img{
     width: 7rem;

@@ -12,6 +12,8 @@
 transform: scale(1.02);
 }
 .menu-go-to-cart img{
+    position: relative;
+    z-index: 0;
     width: 100%;
     height: 100%;
     filter: invert(100%);
