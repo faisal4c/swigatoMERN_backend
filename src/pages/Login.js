@@ -29,7 +29,6 @@ export default function Login() {
       else {
         sessionStorage.setItem('authToken', data.authToken);
         sessionStorage.setItem('email', email);
-        console.log(sessionStorage.getItem('authToken'));
         navigate('/');
       }
     }
