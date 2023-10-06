@@ -46,7 +46,6 @@
     padding: 1rem;
     border-radius: 20px;
     transform: translateY(-80vh);
-    animation: emerge 3s ease forwards, bounce 3s ease forwards infinite;
     background-color:#DE4C4C ;
     color:white
 }
